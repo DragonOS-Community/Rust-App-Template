@@ -1,5 +1,5 @@
-# TOOLCHAIN=""
-# RUSTFLAGS+=""
+TOOLCHAIN=
+RUSTFLAGS=
 
 ifdef DADK_CURRENT_BUILD_DIR
 # 如果是在dadk中编译，那么安装到dadk的安装目录中
